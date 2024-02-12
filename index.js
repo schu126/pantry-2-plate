@@ -8,7 +8,7 @@ fetch (recipeURL)
     }
 });
 
-// need to include a function about filtering (gotta study up on that)
+// need to include a function about filtering (gotta study up on)
 
 const renderRecipe = (recipe) => {
     let div = 
