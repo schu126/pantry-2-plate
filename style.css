@@ -1,0 +1,78 @@
+:root {
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    color: white;
+    background-color: #242424;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    font-weight: 300;
+  }
+  
+  html {
+    position: relative;
+  }
+  
+  #html-background-image {
+    will-change: transform;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.75);
+    object-fit: cover;
+  }
+
+  h1 {
+    padding: 1rem;
+    margin-top: 2em;
+    font-size: 6em;
+    color: white;
+    font-weight: 300;
+  }
+
+#pantry_input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+  
+  #protein-list, #vegetable-list, #carb-list, #algorithm2submit {
+    margin: 10px;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+
+  #algorithm2submit {
+    display: flex;
+  }
+  
+  #recipe {
+    position: relative;
+  }
+  
+  .detail-image {
+    height: 350px;
+  }
+  
+  .name {
+    position: absolute;
+    left: 10px;
+    padding: 0.25rem 5rem 0.25rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 25px;
+  }
