@@ -13,23 +13,29 @@
         <p>Let us do the research, so you don`t have to.</p>
     </div>
 
-    <div id="pantry_input">
-        <form id="protein" action="" method="POST">
-            <label for="protein">Protein:</label>
-            <input type="text" id="protein-pantry-item" name="protein-pantry-item" placeholder="protein">
-            <input type="submit" value="Add to pantry">
-        </form>
-        <form id="vegetable" action="" method="POST">
-            <label for="vegetable">Vegetable:</label>
-            <input type="text" id="vegetable-pantry-item" name="vegetable-pantry-item" placeholder="vegetable">
-            <input type="submit" value="Add to pantry">
-        </form>
-        <form id="carb" action="" method="POST">
-            <label for="carb">Carb:</label>
-            <input type="text" id="carb-pantry-item" name="carb-pantry-item" placeholder="carb">
-            <input type="submit" value="Add to pantry">
-        </form>
-
+    <div id="pantry_input" style="display: flex;">
+        <div style="display: flex;">
+            <form id="protein" action="" method="POST" style="display: block;">
+                <label for="protein">Protein:</label>
+                <input type="text" id="protein-pantry-item" name="protein-pantry-item" placeholder="protein">
+                <input type="submit" value="Add to pantry">
+            </form>
+        </div>
+        <div style="display: flex;">
+            <form id="vegetable" action="" method="POST" style="display: block;">
+                <label for="vegetable">Vegetable:</label>
+                <input type="text" id="vegetable-pantry-item" name="vegetable-pantry-item" placeholder="vegetable">
+                <input type="submit" value="Add to pantry">
+            </form>
+        </div>
+        <div style="display: flex;">
+            <form id="carb" action="" method="POST" style="display: block;">
+                <label for="carb">Carb:</label>
+                <input type="text" id="carb-pantry-item" name="carb-pantry-item" placeholder="carb">
+                <input type="submit" value="Add to pantry">
+            </form>
+        </div>
+<div style="display: flex;">
         <div id="protein-list">
             <h2>Protein Pantry:</h2>
             <ul id="p-items">
@@ -46,8 +52,8 @@
             </ul>
         </div>
     </div>
-      
-    <div id="algorithm2submit">
+</div>      
+    <div id="algorithm2submit" style="display: flex;">
         <form>
             <input placeholder="Protein" />
             <p>+</p>
