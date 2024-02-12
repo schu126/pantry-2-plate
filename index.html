@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Pantry 2 Plate</title>
 </head>
 <body>
-    
+    <div id="title_banner">
+        <h1>PANTRY 2 PLATE</h1>
+        <p>Let us do the research, so you don`t have to.</p>
+    </div>
+
+    <div id="pantry_input">
+        <form id="protein" action="" method="POST">
+            <label for="protein">Protein:</label>
+            <input type="text" id="protein-pantry-item" name="protein-pantry-item" placeholder="protein">
+            <input type="submit" value="Add to pantry">
+        </form>
+        <form id="vegetable" action="" method="POST">
+            <label for="vegetable">Vegetable:</label>
+            <input type="text" id="vegetable-pantry-item" name="vegetable-pantry-item" placeholder="vegetable">
+            <input type="submit" value="Add to pantry">
+        </form>
+        <form id="carb" action="" method="POST">
+            <label for="carb">Carb:</label>
+            <input type="text" id="carb-pantry-item" name="carb-pantry-item" placeholder="carb">
+            <input type="submit" value="Add to pantry">
+        </form>
+
+        <div id="protein-list">
+            <h2>Protein Pantry:</h2>
+            <ul id="p-items">
+            </ul>
+        </div>
+        <div id="vegetable-list">
+            <h2>Vegetable Pantry:</h2>
+            <ul id="v-items">
+            </ul>
+        </div>
+        <div id="carb-list">
+            <h2>Carb Pantry:</h2>
+            <ul id="c-items">
+            </ul>
+        </div>
+    </div>
+      
+    <div id="algorithm2submit">
+        <form>
+            <input placeholder="Protein" />
+            <input placeholder="Vegetable" />
+            <input placeholder="Carb" />
+            <button>Find Me A Recipe</button>
+          </form>
+    </div>
+    <div id="recipe">
+        <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+        <h2 class="name">Insert Name Here</h2>
+    </div>
+    <div id="footer">
+        <p>Brought to you by:</p>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
