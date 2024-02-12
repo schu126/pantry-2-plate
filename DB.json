@@ -1,0 +1,107 @@
+{
+    "chicken": [
+        {
+            "id": 1,
+            "dishName": "Chicken Vesuvio",
+            "dishImage": "https://edamam-product-images.s3.amazonaws.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDSEaYId6oKEZCmCXIgMkoN9U7sDl1JbqXSj85tHsTePgIhAIORH9RIZMqe3jk4%2FQ%2BlJuY3A1SjSongl2CfgrTU9YgwKrkFCGAQABoMMTg3MDE3MTUwOTg2Igy5afotDTwsbVIT%2Bj8qlgU4d1qdaKuRh4DvXL2U6puAurBKmWHSJFYXKxtqSj%2BsxNVKlDOJ8ggjJCACE6vLe7DDPSkvytFG%2Bx66yMAHixB%2Bp%2Fh4gNnjbiSEDPc82CvGc3b6e0CHVg6mWV3S6XFOummOc9pGdI6NeTsl9zRL7jd%2BCT4znZu8R1qUYhHWJU%2FZvVJEqeN5%2BK9b3flSnUJyCobSw3kcP5%2BNMT5eJ%2BRk2pLnJSRgUqs%2Buo9WSr4fV%2F0tAWQC%2B3V3qIcARcpsBZTPnehYra4KkWAoAV6G%2F%2BfI8ovJaPBqACR8eFkir8BdCy0OcDtn63ITvUmP40a2%2BIpmkzHKRUIxBla0j8qWkWVeUYDutzGjsHITfm7E9K%2BHowhVauYbnoNF1VjSYoVv6BkOZzA0LpaLkN9y3E3azDWwRGUQcTUVBJXENXemirp%2Bqii1c5mn5Xs6KzemeuXvZWl0mrCjl0dSr%2F7ADKlCumUo60%2B7zbaJb0tZKN81mZAUME7ZG17LZzKOTtyiTD84fk8uO4%2Bf7TdPRP5mSZhzHfg%2BMB%2FJ4HOldF4NAv%2FRBeVYm7sf77lVEroFhj1UorfnaxpaFYFzd4YR6H7Qs4Vu%2FBLsDhKl2m2%2B0umbTibTpkOAZgCNuBjxTNdcBFDD8f8GZGR20NJ8qi8qJK%2FF8A15t%2FUE9H%2Bb0wTCeD%2F5q8w4%2BgjOIw%2Be%2FLN3O7ZHRvv6sy4sWtXVk3HS%2FZZun6doAqvBTlf%2BzTazc1mLVaFAWgvp%2B4Z83jWZmECzZv7LeBmajCcWlhOqai%2B1GWaev5CQi%2FVXRVcQ46bgvaJDgc4FE3f0l%2FBlNpoh84C4lkld8rT1f5t6vUuso4fqf2i1VnDNrhWX7FEbQhfupCKEnuBFA5z%2FDdTVzczJ4r9jWE7lNDDp66iuBjqwAYdlZOOmoFFI%2BIq8opJua1jU3bdaa9whC%2FVBVFyGISC5oCq7Km37ZcvjGs%2BxzfgPw4B9ZhCNM%2BXaLb8clkG1ylDApVNFMBPtJ%2FTn%2Bw5qcv9QGVeHRBgcTYBjKy4ooHMrl0dQCQZ1LF%2FOmh4zmV%2F1HJaJNg1XwALpKNS9gXbRTiu1WVcZBbdvtGmUjnpcp%2FB%2F5P95Gl%2BoHe532aqJ%2B5Ep2Q8hEH6TQ9aY0uRGE1uyPLfQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240212T155830Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLDCYZRPN%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=71c6f1690a6bdd2116e4c7768d8c3cc354d9b15af4f19a1a215953bb01413022",
+            "ingredientLines": [
+                "1/2 cup olive oil",
+                "5 cloves garlic, peeled",
+                "2 large russet potatoes, peeled and cut into chunks",
+                "1 3-4 pound chicken, cut into 8 pieces (or 3 pound chicken legs)",
+                "3/4 cup white wine",
+                "3/4 cup chicken stock",
+                "3 tablespoons chopped parsley",
+                "1 tablespoon dried oregano",
+                "Salt and pepper",
+                "1 cup frozen peas, thawed"
+            ],
+            "totalCookTime": [
+                "active: 20 mins",
+                "total: 60 mins"
+            ],
+            "instructions": [
+                "Heat an oven to 325°F. In a roasting pan (or a large (14-inch) oven-proof skillet), heat the olive oil over medium until shimmering. Add the potatoes and garlic and cook until golden brown, about 12 minutes. Remove to a plate, leaving behind as much oil as possible.",
+                
+                "Add the chicken to the skillet, skin-side down. Cook until golden and crisp, then turn and cook the other side until golden as well. Add the wine and cook until it reduces by half.",
+                
+                "Return the garlic and potatoes to the pan, along with the chicken stock, parsley, oregano, and a pinch of salt and pepper. Transfer to the oven and cook, uncovered, until the chicken is cooked through, about 45 minutes. Add the peas to the pan with 5 minutes left in the cooking time. Serve with the roasting juices in the pan."
+            ]
+        },
+        {
+            "id": 2,
+            "dishName": "Chicken Paprikash",
+            "dishImage": "https://edamam-product-images.s3.amazonaws.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIBPpxW36uy1GYAn0ZVk7BUnRpHB386%2FB9UXVMCWn4N9uAiEA18Glnm6hDi11Z5HwJ2lSV5zMJraojOKAAkfyKsNmwl4quQUIYBAAGgwxODcwMTcxNTA5ODYiDKQcvKcSMAH5ZBF0oyqWBW2ZxQ3KkB1uYzCRxEbHcmd8EBw%2FUji9Bz%2F%2BrT6SjAlaagvxxYqZNCJqVNrC5cNJbh8Z6Ym9q61jCi0%2FoMLSRckedeQ4bo7b%2Fjsu1Q3%2Bg%2FZHY7mgVErkidow1fs2GulHYQhTFogNWPSwMhqahYSM9shwt2%2FCfTl7ER9av1aANyrLGDf4ZtsUdVPd5LpSfBu6bKkmomBnSxSHGoLyAaJafmUrtyoeysB%2Bm7K1SKu8%2B%2F9Uoui5O%2BMhFbZEZqA%2B4YX8VovAMOfinp%2F6cEAwkOf9JBZps%2F2F7trmJdrZxg76Qxi2Uh4zwYIr0%2BDowHsCTxjQQz72Pp7V1kagUb6AjMYYmoxQBZN6PAuONShAUjVvvzzj1HPmxrz9wRUlBRyxeEc8yJevj%2FgVdOtHfJtndIM82hbAJER1klvtfZ4G4a4KNI5FppvWWh2XaE6cYgCfVtDzO%2BP0dBatctAbJj9AdMkvp6j1vA3h4PEnHRYUIqhRwAnw6Ef3fmuwv2iSaPstGoSLGqfGog9TpWj54rpnb7BI9VjDPL%2FbIQElqJlu78Yrl2fU1e7XJAfe1AvdTTEhgR6eE7cTwoSOJyLrxx06mZtLq9jHtGguhY2eG9g%2FKm%2BGlOejYUhT1YIXzzifWNdM6D6T%2BtdpUVDx0xYVCxbqUqbJqRTRkYMGHylQ7%2BfyC4AfrawtPzBjmFr%2F9kdZb2JtaoxlECIZl8g1Tba8PY5rMIyXxqqrFftKItNHPNEMtMk%2FcfGDQC%2BqVOH2u%2FY%2BDUZuYJFAxMhnwSgarip3oHS3yvu06xAYbGAnR7V%2FEaw%2BFx9Q2Qqj9LXuUmxKUSrqcXQEjrYEZb7KbfAoUfFjxhJNMcdJTUXq11%2B9ItzKp%2BdcNa4v1y5c97p4fYMQMLfcqK4GOrEBp%2FE5nZYoRZ7uK%2BsGl%2FBcHuBjadlza3exj5Hcz8%2FkkIpL64pNKLNSx%2BBAFVKod7TItbrwigS4RKN8UBJkqShRXmK4e5hJgSC3xnI6jJnji4%2F6vdOaRgo9%2FZU4uCbyy4axa5oik36OF8MSirw8CRrbVfJcyEDZNNmUvVsiR9AZAN2%2Bj8Y8uDUDq02EZ%2FlxLVGb3jaeVIW29Eduz1PNV13t%2FxFNb%2BHk0GwrMNTsm2WwZO0y&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240212T161323Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFFNA7EJIJ%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5f7cd94bfe3f328748ac031555fa38dd9b7522c5696f2d035d7dfd5d0a13f55d",
+            "ingredientLines": [
+                "640 grams chicken - drumsticks and thighs ( 3 whole chicken legs cut apart)",
+                "1/2 teaspoon salt",
+                "1/4 teaspoon black pepper",
+                "1 tablespoon butter – cultured unsalted (or olive oil)",
+                "240 grams onion sliced thin (1 large onion)",
+                "70 grams Anaheim pepper chopped (1 large pepper)",
+                "25 grams paprika (about 1/4 cup)",
+                "1 cup chicken stock",
+                "1/2 teaspoon salt",
+                "1/2 cup sour cream",
+                "1 tablespoon flour – all-purpose"
+            ],
+            "totalCookTime": [
+                "active: 1 hour 10 mins",
+                "total: 1 hour 15 mins"
+            ],
+            "instructions": [
+                "Use paper towels to dry the chicken thoroughly. Reducing the moisture content on the surface of the chicken is essential to get it to brown.",
+                "Sprinkle the chicken evenly with the salt and black pepper.",
+                "Heat a heavy bottomed pot (such as a Dutch oven) over medium heat until hot. Add the olive oil and swirl to coat the pan.",
+                "When the pot is hot, add the chicken in a single layer, skin side down, being careful not to overcrowd the pan. If they don't all fit in your pan, divide the chicken into two batches. Leave the chicken undisturbed until golden brown (about 5-7 minutes).",
+                "Flip the chicken pieces over and brown the other side. Repeat with the rest of the chicken if necessary.",
+                "Transfer the chicken to a bowl and then add the onions and peppers to the pot. Stir to distribute evenly and then cover with a lid to let the vegetables steam for about 10 minutes.",
+                "Remove the lid and saute the onions until they are golden brown.",
+                "Add the sweet paprika and fry, continually stirring for about 10 seconds. Paprika burns easily and will become bitter, so be careful not to burn it.",
+                "Add the chicken stock and then return the chicken to the pot along with any accumulated juices. Cover with a lid and turn down the heat to maintain a gentle simmer. Cook the chicken until it is tender (about 45 minutes).",
+                "While you're waiting for the chicken to cook, mix the sour cream and flour in a bowl until it's free of lumps.",
+                "When the chicken is done, temper the sour cream by transferring some cooking liquid from the chicken a spoonful at a time to the cream mixture and stirring after each addition. You want to slowly raise the temperature of the sour cream until it is very warm.",
+                "Once the sour cream is tempered, you can pour it all back into the pot and stir to combine. Do not let it boil once you've added the sour cream. Taste the sauce and add some more salt if needed. The paprika chicken is done when the sauce has thickened."
+            ]
+        },
+        {
+            "id": 3,
+            "dishName": "Chicken Vesuvio",
+            "dishImage": "https://edamam-product-images.s3.amazonaws.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDSEaYId6oKEZCmCXIgMkoN9U7sDl1JbqXSj85tHsTePgIhAIORH9RIZMqe3jk4%2FQ%2BlJuY3A1SjSongl2CfgrTU9YgwKrkFCGAQABoMMTg3MDE3MTUwOTg2Igy5afotDTwsbVIT%2Bj8qlgU4d1qdaKuRh4DvXL2U6puAurBKmWHSJFYXKxtqSj%2BsxNVKlDOJ8ggjJCACE6vLe7DDPSkvytFG%2Bx66yMAHixB%2Bp%2Fh4gNnjbiSEDPc82CvGc3b6e0CHVg6mWV3S6XFOummOc9pGdI6NeTsl9zRL7jd%2BCT4znZu8R1qUYhHWJU%2FZvVJEqeN5%2BK9b3flSnUJyCobSw3kcP5%2BNMT5eJ%2BRk2pLnJSRgUqs%2Buo9WSr4fV%2F0tAWQC%2B3V3qIcARcpsBZTPnehYra4KkWAoAV6G%2F%2BfI8ovJaPBqACR8eFkir8BdCy0OcDtn63ITvUmP40a2%2BIpmkzHKRUIxBla0j8qWkWVeUYDutzGjsHITfm7E9K%2BHowhVauYbnoNF1VjSYoVv6BkOZzA0LpaLkN9y3E3azDWwRGUQcTUVBJXENXemirp%2Bqii1c5mn5Xs6KzemeuXvZWl0mrCjl0dSr%2F7ADKlCumUo60%2B7zbaJb0tZKN81mZAUME7ZG17LZzKOTtyiTD84fk8uO4%2Bf7TdPRP5mSZhzHfg%2BMB%2FJ4HOldF4NAv%2FRBeVYm7sf77lVEroFhj1UorfnaxpaFYFzd4YR6H7Qs4Vu%2FBLsDhKl2m2%2B0umbTibTpkOAZgCNuBjxTNdcBFDD8f8GZGR20NJ8qi8qJK%2FF8A15t%2FUE9H%2Bb0wTCeD%2F5q8w4%2BgjOIw%2Be%2FLN3O7ZHRvv6sy4sWtXVk3HS%2FZZun6doAqvBTlf%2BzTazc1mLVaFAWgvp%2B4Z83jWZmECzZv7LeBmajCcWlhOqai%2B1GWaev5CQi%2FVXRVcQ46bgvaJDgc4FE3f0l%2FBlNpoh84C4lkld8rT1f5t6vUuso4fqf2i1VnDNrhWX7FEbQhfupCKEnuBFA5z%2FDdTVzczJ4r9jWE7lNDDp66iuBjqwAYdlZOOmoFFI%2BIq8opJua1jU3bdaa9whC%2FVBVFyGISC5oCq7Km37ZcvjGs%2BxzfgPw4B9ZhCNM%2BXaLb8clkG1ylDApVNFMBPtJ%2FTn%2Bw5qcv9QGVeHRBgcTYBjKy4ooHMrl0dQCQZ1LF%2FOmh4zmV%2F1HJaJNg1XwALpKNS9gXbRTiu1WVcZBbdvtGmUjnpcp%2FB%2F5P95Gl%2BoHe532aqJ%2B5Ep2Q8hEH6TQ9aY0uRGE1uyPLfQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240212T155830Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLDCYZRPN%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=71c6f1690a6bdd2116e4c7768d8c3cc354d9b15af4f19a1a215953bb01413022",
+            "ingredientLines": [
+                "1/2 cup olive oil",
+                "5 cloves garlic, peeled",
+                "2 large russet potatoes, peeled and cut into chunks",
+                "1 3-4 pound chicken, cut into 8 pieces (or 3 pound chicken legs)",
+                "3/4 cup white wine",
+                "3/4 cup chicken stock",
+                "3 tablespoons chopped parsley",
+                "1 tablespoon dried oregano",
+                "Salt and pepper",
+                "1 cup frozen peas, thawed"
+            ],
+            "totalCookTime": [
+                "active: 20 mins",
+                "total: 60 mins"
+            ],
+            "instructions": [
+                "Heat an oven to 325°F. In a roasting pan (or a large (14-inch) oven-proof skillet), heat the olive oil over medium until shimmering. Add the potatoes and garlic and cook until golden brown, about 12 minutes. Remove to a plate, leaving behind as much oil as possible.",
+                
+                "Add the chicken to the skillet, skin-side down. Cook until golden and crisp, then turn and cook the other side until golden as well. Add the wine and cook until it reduces by half.",
+                
+                "Return the garlic and potatoes to the pan, along with the chicken stock, parsley, oregano, and a pinch of salt and pepper. Transfer to the oven and cook, uncovered, until the chicken is cooked through, about 45 minutes. Add the peas to the pan with 5 minutes left in the cooking time. Serve with the roasting juices in the pan."
+            ]
+        }
+    ],
+    "fish": [
+        {
+
+        }
+    ],
+    "pork": [
+        {
+
+        }
+    ]
+
+}
