@@ -32,7 +32,7 @@ document.addEventListener ("DOMContentLoaded", function() {
         const userProteinInput = document.getElementById('protein-pantry-item').value;
         const userVegetableInput = document.getElementById('vegetable-pantry-item').value;
         const userCarbInput = document.getElementById('carb-pantry-item').value;
-        const filteredRecipe = searchRecipe(userProteinInput, userVegetableInput, userCarbInput);
+        const filteredRecipes = searchRecipe(userProteinInput, userVegetableInput, userCarbInput);
     })
     });
     
@@ -52,7 +52,12 @@ function searchRecipe (protein, vegetable, carb) {
     if (filteredRecipes.length > 0) {
         const foundRecipe = filteredRecipes[0];
         document.getElementById('recipe').querySelector('h2').textContent = foundRecipe.dishName;
+        document.getElementById('recipe').querySelector('img').src = foundRecipe.dishImage;
     } else {
         document.getElementById('recipe').querySelector('h2').textContent = "Recipe to be uploaded!";
     }
     };
+
+    // filteredRecipes.forEach(recipe => {
+    //     renderRecipe(recipe);
+    // create render other recipes, not just the first one in the array??? potentially???
