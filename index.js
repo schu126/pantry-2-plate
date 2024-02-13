@@ -29,10 +29,10 @@ document.addEventListener ("DOMContentLoaded", function() {
     const findRecipeButton = document.querySelector("#algorithm2submit button");
     findRecipeButton.addEventListener('click', function(event) {
         event.preventDefault();
-        const proteinInput = document.getElementById('protein-pantry-item').value;
-        const vegetableInput = document.getElementById('vegetable-pantry-item').value;
-        const carbInput = document.getElementById('carb-pantry-item').value;
-        const filteredRecipe = searchRecipe(proteinInput, vegetableInput, carbInput);
+        const userProteinInput = document.getElementById('protein-pantry-item').value;
+        const userVegetableInput = document.getElementById('vegetable-pantry-item').value;
+        const userCarbInput = document.getElementById('carb-pantry-item').value;
+        const filteredRecipe = searchRecipe(userProteinInput, userVegetableInput, userCarbInput);
     })
     });
     
@@ -49,10 +49,10 @@ function searchRecipe (protein, vegetable, carb) {
         );
     });
     //if the array length is greater than 0, the first found/filtered recipe will be shown.
-    if (filteredReceipes.length > 0) {
+    if (filteredRecipes.length > 0) {
         const foundRecipe = filteredRecipes[0];
         document.getElementById('recipe').querySelector('h2').textContent = foundRecipe.dishName;
     } else {
-        console.log("Recipe to be uploaded!");
+        document.getElementById('recipe').querySelector('h2').textContent = "Recipe to be uploaded!";
     }
     };
