@@ -35,7 +35,7 @@
     font-weight: 300;
   }
 
-#pantry_input {
+  /* #pantry_input {
     position: relative;
     display: flex;
     justify-content: center;
@@ -47,8 +47,13 @@
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
   }
-  
-  #protein-list, #vegetable-list, #carb-list, #algorithm2submit {
+   */
+
+#protein-section, #veg-section, #carb-section {
+    padding: 20px;
+}
+
+  #protein-list, #vegetable-list, #carb-list {
     margin: 10px;
     border: 1px solid #333;
     background: rgba(255, 255, 255, 0.75);
@@ -57,10 +62,13 @@
     box-shadow: 2px 5px 5px #333;
   }
 
+
   #algorithm2submit {
     display: flex;
+    padding: 20px;
   }
   
+
   #recipe {
     position: relative;
   }
