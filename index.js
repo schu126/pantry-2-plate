@@ -10,17 +10,6 @@ fetch (recipeURL)
 
 // need to include a function about filtering (gotta study up on)
 
-const renderRecipe = (recipe) => {
-    let div = 
-}
-
-const handleClick = () => {
-
-};
-
-const addSubmitListener = () => {
-
-}
 
 // find me a recipe:
 // FIND ME A RECIPE BUTTON: --> functions as a submit button for the above protein, vegetable, carb boxes
@@ -35,3 +24,32 @@ const addSubmitListener = () => {
     // goals: make each word/li a "button"; then when button is clicked, populate underneath box with the clicked word
         // handleClick function 
 // (PART3) find me recipe button
+
+document.addEventListener ("DOMContentLoaded", function() {
+    const findRecipeButton = document.querySelector("#algorithm2submit button");
+    findRecipeButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        const proteinInput = document.getElementById('protein-pantry-item').value;
+        const vegetableInput = document.getElementById('vegetable-pantry-item').value;
+        const carbInput = document.getElementById('carb-pantry-item').value;
+        const filteredRecipe = searchRecipe(proteinInput, vegetableInput, carbInput);
+    })
+    });
+    
+function searchRecipe (protein, vegetable, carb) {
+
+    const filteredRecipes = recipes.filter((recipe) => {
+        return (
+            recipe.protein.toLowerCase().includes(protein.toLowerCase()) &&
+            recipe.vegetable.to lowerCase().includes(vegetable.toLowerCase())&&
+            recipe.carb.toLowerCase().includes(carb.toLowerCase())
+        );
+    });
+
+    if (filteredReceipes.length > 0) {
+        const foundRecipe = filteredRecipes[0];
+        document.getElementById('recipe').querySelector('h2').textContent = foundRecipe.dishName;
+    } else {
+        console.log("Recipe to be uploaded!");
+    }
+    };
