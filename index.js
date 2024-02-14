@@ -41,14 +41,30 @@ document.addEventListener("DOMContentLoaded", () => {
       
       const list = ingredientSection.querySelector(".ingredientList")
       const listItem = document.createElement("li")
-      const span = document.createElement("span")
-      span.textContent = input.value
+      // const span = document.createElement("span")
+      listItem.textContent = input.value
       
-      listItem.append(span)
+      // listItem.append(span)
       list.append(listItem)
       
-    })
+      console.log(listItem)
 
-    })
+      listItem.addEventListener("click", (event) => {
+        const pantryItem = listItem.textContent
+        console.log(pantryItem)
+        const selection = ingredientSection.querySelector(".input");
+        selection.value = pantryItem;
+        // listItem.style.color = "blue";
+
+        // console.log(event)
+        // console.log(selection)
+
+
+      });
+
+
+
+    });
+    });
 
 });
