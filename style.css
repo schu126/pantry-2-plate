@@ -28,13 +28,17 @@
   }
 
   h1 {
-    padding: 1rem;
-    margin-top: 2em;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 6em;
     color: white;
     font-weight: 300;
   }
-
+  
+  #title_banner p {
+    margin: 0px 10px 40px;
+  }
   /* #pantry_input {
     position: relative;
     display: flex;
@@ -49,12 +53,16 @@
   }
    */
 
-#protein-section, #veg-section, #carb-section {
+   .ingredientSection {
     padding: 20px;
 }
 
-  #protein-list, #vegetable-list, #carb-list {
-    margin: 10px;
+.submit, .input {
+  margin-left: 20px;
+}
+
+  .ingredientList {
+    margin: 20px;
     border: 1px solid #333;
     background: rgba(255, 255, 255, 0.75);
     padding: 15px 20px 18px 18px;
