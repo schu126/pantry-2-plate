@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const ingredientSections = document.querySelectorAll(".ingredientSection");
   ingredientSections.forEach((ingredientSection) => {
-    // console.log(ingredientSection)
     const input = ingredientSection.querySelector(".ingredient-pantry-input");
 
     const button = ingredientSection.querySelector(".submit");
     button.addEventListener("click", (event) => {
       event.preventDefault();
-      //   console.log(input.value)
 
       const list = ingredientSection.querySelector(".ingredientList");
       const listItem = document.createElement("li");
@@ -15,11 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       list.append(listItem);
 
-      //   console.log(listItem)
 
       listItem.addEventListener("click", (event) => {
         const pantryItem = listItem.textContent;
-        // console.log(pantryItem)
         const selection = ingredientSection.querySelector(".input");
         selection.value = pantryItem;
       });
@@ -40,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "vegetable-pantry-item"
     ).value;
     const userCarbInput = document.getElementById("carb-pantry-item").value;
+    
+    clearResults();
 
     fetch(recipeURL)
       .then((response) => response.json())
@@ -53,6 +51,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+function clearResults() {
+  ingredientListDiv = document.getElementsByClassName('ingredient-list');
+  while(ingredientListDiv.length > 0) {
+    ingredientListDiv[0].parentNode.removeChild(ingredientListDiv[0]);
+  }
+  cookTimeDiv = document.getElementsByClassName('total-cook-time-elements');
+  while(cookTimeDiv.length > 0) {
+    cookTimeDiv[0].parentNode.removeChild(cookTimeDiv[0]);
+  }
+  recipeInstructionsDiv = document.getElementsByClassName('recipe-instruction-elements');
+  while(recipeInstructionsDiv.length > 0) {
+    recipeInstructionsDiv[0].parentNode.removeChild(recipeInstructionsDiv[0]);
+  }
+}
 
 function searchRecipe(protein, vegetable, carb, recipesData) {
   const filteredRecipes = recipesData.filter((recipe) => {
@@ -80,25 +93,29 @@ function searchRecipe(protein, vegetable, carb, recipesData) {
     div.querySelector("img").src = foundRecipe.dishImage;
 
     let ingredientListUl = document.createElement("ul");
+    ingredientListUl.classList.add('ingredient-list');
     for (let ingredientLine of foundRecipe.ingredientLines) {
       renderList(ingredientLine, ingredientListUl);
     }
     div.append(ingredientListUl);
 
     let totalCookTime = document.createElement("ul");
+    totalCookTime.classList.add('total-cook-time-elements');
     for (let cookTimeElement of foundRecipe.totalCookTime) {
       renderList(cookTimeElement, totalCookTime);
     }
     div.append(totalCookTime);
 
     let recipeInstructions = document.createElement("ol");
+    recipeInstructions.classList.add('recipe-instruction-elements');
     for (let recipeInstructionLine of foundRecipe.instructions) {
       renderList(recipeInstructionLine, recipeInstructions);
     }
     div.append(recipeInstructions);
   } else {
-    document.getElementById("recipe").querySelector("h2").textContent =
-      "Recipe to be uploaded!";
+    document.getElementById('recipe').querySelector('img').src = "./assets/image-placeholder.jpg"; 
+    document.getElementById("recipe").querySelector("h2").textContent = "Recipe to be uploaded!";
+
   }
 }
 
