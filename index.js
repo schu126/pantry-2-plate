@@ -74,6 +74,7 @@ function searchRecipe(protein, vegetable, carb, recipesData) {
     // vegetableFilter is presented as an array within db.json file; need to iterate for each loop to lower case each vegetable, and insepct.
     let vegetableFilter = false;
     let vegetableArray = recipe.vegetable;
+    // console.log(proteinFilter);
     for (let vegetableElement of vegetableArray) {
       if (vegetableElement.toLowerCase() === vegetable.toLowerCase()) {
         vegetableFilter = true;
@@ -114,7 +115,7 @@ function searchRecipe(protein, vegetable, carb, recipesData) {
     }
     div2.append(recipeInstructions);
   } else {
-    document.getElementById("recipeTitle").querySelector("img").src = "./assets/image-placeholder.jpg"; 
+    document.getElementById("recipeTitle").querySelector("img").src = "https://www.foodandwine.com/thmb/8mlDM854zzRlSolN8d65MDGr8vM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/swedish-chef-ft-blog0617-5afcaa144e2a4600a02992603e9d1a2b.jpg"; 
     document.getElementById("recipeTitle").querySelector("h2").textContent = "Recipe to be uploaded!";
 
   }
