@@ -134,7 +134,7 @@
         {
             "id": 4,
             "protein": "fish",
-            "vegetable": " ",
+            "vegetable": [" "],
             "carb": " ",
             "dishName": "Deep Fried Fish Bones",
             "dishImage": "https://edamam-product-images.s3.amazonaws.com/web-img/c8c/c8ccf12e2aa2c78b94817f18cd4eaff2.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJ7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCd0u3kIm999GBxo9jZ5H2TMF%2BBPzzo7egIp5QOL0RyqwIge00a%2Fny%2FeemO7Pa0uKj8WMXsrNuqCxcZZ%2BzmepvVAfIquQUIdxAAGgwxODcwMTcxNTA5ODYiDGxUjXhSQJ9wuho9EyqWBcz3azsHJu%2FPRxK%2Fv1%2FDIYguYaP%2FqFJMRSF5WUxdm%2F3CzH%2BFMxmcgD08XNt6mqN9TC4uf4KOnhf4XsMcs92ss8dVD9KiI3HQMNZ90ZLndAmwCYsebQD%2Bw9R6gEzMQ7BvYrMaSuf5zZUbaudFrNTbbBbbwvNB1CO8jwS6xmGh4HGDfw88lllzZrNtQpJceIs2SLDv41kkITaXU8DNKk5qqzVQXMKJE3f%2BmSHmq48z1Kpfv0IO0zRDwnHMFL2%2Bb4kBGz94CecV0UmlDluJyalJqnJ8CqwLpFuxE8pPwrOTYrw9PhpnSb6NPPOks%2FPqThe6%2FdCKGq5YNehesloRPHYSSe3rhz7s1KNxNxQX0AcISKRTTPxzXAqlmTsCU%2FmSB7FoTJZqeCkPbX6cqQuhiCp4qX%2BU3ecM%2BBtxyFCQT1x35y8%2F9WZkXLqKBL%2BwZU4NPvdSchMFFX6xzusyHtFKTh9qnk8e7owFpNj%2Bc42jRGW9LWjGDN5Sj9CWC0FejylPzDpd6X3nrYE7eI4h154ZyNeWH6DFCdRl0BMrGBROlCh5cLabn0mk4xSK%2Bm597w1FDo0KXRCr0Ahc%2BZW66TVhsl8orJ8ilFalqobL0K1iQB8xyGchcA5WPYWp4WM90ImrmTNbnXXlb%2FtoHOpeAKlu8W5sfQYoxe6yAzEHtmm6Fi%2F5RsotFWYFIu%2B%2BOAX8HZ4lyMZbkQY1EZGzA%2F9Z96Z9ElqqFIO7XXs%2BY%2ByXXrVB5ooPt1tdVdlQWr7a1%2BRvXy2kjleHlkNUHTeFj1bojIohrgy6O9MqyqpR0WN6WMeTDM1Oz8TK38lsE%2BgqdfBQcIbpZ6dhg8wXvYilJJk2bbAJnM7sbrr3vh4ldYUJLIUdK8lcKKuaeXBb1OfgMN3gra4GOrEBEe4DaMF0ZpR5LPCwmXVgOQ2meqz5BMgumnTd3tyLHdSjDEAS6SJWMtC8jUfGvihxBz3RikJyUQd6r7FGxqP%2FUDgm3Dd3UXkEhH9p0dpUd3n0zFD4%2Ft4%2Bgk2FRpBuRX1P6rpBKmus%2FzbfK0WMBE3PKrFEqjxJNRPoDZQBX3UNQkxrUzlWyu4WJlvfFX7K3LnmZ0HkHu04wqyvdsyk4GYRDxUVZVGzv0Nr4cz11F%2F4p1Mq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240213T150724Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFB6AJ4AUS%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9be9635b02a72d49c44d20402f118c9d3a6603e276b0d86263177958c7bfcbfe",
@@ -156,7 +156,7 @@
         {
             "id": 5,
             "protein": "fish",
-            "vegetable": "scallions",
+            "vegetable": ["scallions"],
             "carb": " ",
             "dishName": "Burnt Scallion Fish",
             "dishImage": "https://www.saveur.com/uploads/2019/03/18/4YYRGPE6D2AHWYVGLIHYURB3EI.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=600&dpr=1",
@@ -180,7 +180,7 @@
         {
             "id": 6,
             "protein": "fish",
-            "vegetable": " ",
+            "vegetable": [" "],
             "carb": "rice",
             "dishName": "Baked Fish From Iceland",
             "dishImage": "https://www.thedailymeal.com/img/gallery/baked-fish-from-iceland/edit_0.jpg",
@@ -421,7 +421,7 @@
         {
             "id": 13,
             "protein": "tofu",
-            "vegetable": " ",
+            "vegetable": [" "],
             "carb": " ",
             "dishName": "Tofu Bites",
             "dishImage": "https://edamam-product-images.s3.amazonaws.com/web-img/bb2/bb2b448890ff249841ccac997c5ad977.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEJEQqwdw17Z2hwFvsSnmJjXpx6TvUBcjplVpk6MZBwjAiEA0zal8zPH8Y%2BPvv1TDukr%2Fnv32qamDCiwb2CIZcGJcCkquQUIehAAGgwxODcwMTcxNTA5ODYiDG05Cp%2BUW%2BEsYneThSqWBckkFCfbObRPutJe%2ByMsmPElFy%2BLDSp9%2FHwPte79v3oopmgBr1BmIMvA%2BAL5jsz4VdYZf%2BACy%2BNwAzhzQgiy4eoGqmzy8sLh6u%2FHkruLvSYJ%2BQ5fG0t4xdFuknWVRyrMZx1ngPBlZqo5Q5Djp%2FWuYMGK5KX0gbcTya6NaMLRTveRD3bbtrTsv4YDU3zWl6u1Q4%2FBk5vZtFEyzsDpdvsjlLDFb%2FCFnR3aeMN2P%2BUjW%2BgS85lJZR3cACAhqxO6s8PQN1ipaqC4PUT86L%2F7BwOZ%2F9osHe%2BXLMuvVJxpM1JNvG1AvJTm43QU3rkucrDr304Glft4Q3nOnLi%2Fi80KpJkqT9Xs5wIneZxqlp%2FUahgbPXHe%2BUVEE%2BsdjYiRh4by30TpPVdiO%2FYgRRTGjqhHGke4oM8oUk%2F3CpTLsZhlIAr8wi0N1%2BeT1rKrruwilBrXb7DG2im9yaijcbx4s16ZsZc1ypbKtqdTrD38nR4rTZ6wuKy%2FYbqAwrplk1I%2FB6cVZ%2FErpZV321vNIvf8tZrIBodtm80PbhQ%2BADwkpIR0ikC2Ba4OO6%2FSdidhDS%2BT0JbS7rI%2BM%2F7yn2q1B0gxghrM60FxkpuJXxe6OkpW%2B1HOjlaOAfsADzkz83pZSWvIP%2BxDYpPg4NfZT95cr2FXraz8Y4LF7tn6Nod5ysvkYnrLsN4lWWFPUyqxQaeUz1tK7zHH5OKITZZbiQrGuV%2FfnhVvElOV3hkZ5z4YDNXRhF9bWzqI1RXdyoG8G2pA7igzqTJC%2F0f%2BD43eJ7fw6j%2BrjKb705eDnz4Lt2ZBeHEco44WiNkz5YKjtpfxtTGYgDpwRcOJ38%2FTytlUsBQcQeXhWqJOYVKaGHeOzENNix0kzC2tHSMRMNEhqFiZH%2FjJMNC1rq4GOrEBxUT%2FrAezewr2BUBzzPDc%2BeTTHWxVOxmbFFdzLvQ5yP8Zx7RFUt2NEqmBMe%2B634jF0IvnhHjqU4uBbvQbocVtl9wv4QpMAF7o49JbOP26WV0PMkrZiaX7pDhMVfQJ8Jg86obaH%2F%2F7wSFDVeG0k0jQ%2BnmaMyagZ%2BKHgl7T74Yp9JXBtvOI5AvN0efLXithEw%2BzAxRpK9dbZeBaK5A8L6e0gRu9af6AfMEO5JytbYLiy9F6&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240213T180016Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFH5S6QY5T%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=350183d257bb23e27656bbee39f0175c3dae6868b5b4794798f154fe0c9d211e",
@@ -475,7 +475,7 @@
         {  "id": 15,
             "dishName": "Smoked Tofu Carbonara",
             "protein": "tofu",
-            "vegetable": "chives",
+            "vegetable": ["chives"],
             "carb": "noodles",
             "dishImage": "https://edamam-product-images.s3.amazonaws.com/web-img/756/756ab22658a0ed00800bc15cc34eea2c.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIEJEQqwdw17Z2hwFvsSnmJjXpx6TvUBcjplVpk6MZBwjAiEA0zal8zPH8Y%2BPvv1TDukr%2Fnv32qamDCiwb2CIZcGJcCkquQUIehAAGgwxODcwMTcxNTA5ODYiDG05Cp%2BUW%2BEsYneThSqWBckkFCfbObRPutJe%2ByMsmPElFy%2BLDSp9%2FHwPte79v3oopmgBr1BmIMvA%2BAL5jsz4VdYZf%2BACy%2BNwAzhzQgiy4eoGqmzy8sLh6u%2FHkruLvSYJ%2BQ5fG0t4xdFuknWVRyrMZx1ngPBlZqo5Q5Djp%2FWuYMGK5KX0gbcTya6NaMLRTveRD3bbtrTsv4YDU3zWl6u1Q4%2FBk5vZtFEyzsDpdvsjlLDFb%2FCFnR3aeMN2P%2BUjW%2BgS85lJZR3cACAhqxO6s8PQN1ipaqC4PUT86L%2F7BwOZ%2F9osHe%2BXLMuvVJxpM1JNvG1AvJTm43QU3rkucrDr304Glft4Q3nOnLi%2Fi80KpJkqT9Xs5wIneZxqlp%2FUahgbPXHe%2BUVEE%2BsdjYiRh4by30TpPVdiO%2FYgRRTGjqhHGke4oM8oUk%2F3CpTLsZhlIAr8wi0N1%2BeT1rKrruwilBrXb7DG2im9yaijcbx4s16ZsZc1ypbKtqdTrD38nR4rTZ6wuKy%2FYbqAwrplk1I%2FB6cVZ%2FErpZV321vNIvf8tZrIBodtm80PbhQ%2BADwkpIR0ikC2Ba4OO6%2FSdidhDS%2BT0JbS7rI%2BM%2F7yn2q1B0gxghrM60FxkpuJXxe6OkpW%2B1HOjlaOAfsADzkz83pZSWvIP%2BxDYpPg4NfZT95cr2FXraz8Y4LF7tn6Nod5ysvkYnrLsN4lWWFPUyqxQaeUz1tK7zHH5OKITZZbiQrGuV%2FfnhVvElOV3hkZ5z4YDNXRhF9bWzqI1RXdyoG8G2pA7igzqTJC%2F0f%2BD43eJ7fw6j%2BrjKb705eDnz4Lt2ZBeHEco44WiNkz5YKjtpfxtTGYgDpwRcOJ38%2FTytlUsBQcQeXhWqJOYVKaGHeOzENNix0kzC2tHSMRMNEhqFiZH%2FjJMNC1rq4GOrEBxUT%2FrAezewr2BUBzzPDc%2BeTTHWxVOxmbFFdzLvQ5yP8Zx7RFUt2NEqmBMe%2B634jF0IvnhHjqU4uBbvQbocVtl9wv4QpMAF7o49JbOP26WV0PMkrZiaX7pDhMVfQJ8Jg86obaH%2F%2F7wSFDVeG0k0jQ%2BnmaMyagZ%2BKHgl7T74Yp9JXBtvOI5AvN0efLXithEw%2BzAxRpK9dbZeBaK5A8L6e0gRu9af6AfMEO5JytbYLiy9F6&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240213T180016Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFH5S6QY5T%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8bb3d174970d56dabaf8f37c14d74beb7d68ef251f1aadcac902ab21fafa9c6e",
             "ingredientLines": [
