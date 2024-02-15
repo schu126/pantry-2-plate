@@ -1,7 +1,9 @@
 :root {
+    margin: 20px 0 20px;
     font-family: Lato, sans-serif;
+    font-weight:600;
     line-height: 1.5;
-    color: white;
+    color: lavender;
     background-color: #242424;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -27,18 +29,34 @@
     object-fit: cover;
   }
 
-  h1 {
+button, input {
+  border-radius: 5px;
+}
+
+
+h1 {
     padding: 5px;
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 6em;
-    color: white;
+    color: lavender;
     font-weight: 300;
   }
   
-  #title_banner p {
-    margin: 0px 10px 40px;
+  #title_banner {
+    background-color: rgba(67, 71, 73, 0.63);
+    padding: 0 50px 30px;
+    border-radius: 10px;
+    /* opacity: 75%; */
+    text-align-last: center;
+    
   }
+
+  #title_banner p {
+    font-weight: 1000;
+    font-size: larger;
+  }
+
   /* #pantry_input {
     position: relative;
     display: flex;
@@ -53,6 +71,19 @@
   }
    */
 
+#sectionOne {
+  background-color: rgba(67, 71, 73, 0.63);
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  /* overflow-x: scroll; */
+  gap: 3vw;
+}
+
    .ingredientSection {
     padding: 20px;
 }
@@ -61,34 +92,62 @@
   margin-left: 20px;
 }
 
-  .ingredientList {
+.ingredientList {
     margin: 20px;
     border: 1px solid #333;
     background: rgba(255, 255, 255, 0.75);
     padding: 15px 20px 18px 18px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
-  }
+    color: black;
+ }
 
 
   #algorithm2submit {
     display: flex;
     padding: 20px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
   }
   
+  button {
+    padding: 7px 100px;
+    font-size: large;
+  }
+  
+  #sectionThree {
+    background-color: rgba(67, 71, 73, 0.63);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+    gap: 10px;
+  }
 
-  #recipe {
+  .detail-image {
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  /* #recipe {
     position: relative;
   }
   
-  .detail-image {
-    height: 350px;
-  }
   
   .name {
     position: absolute;
     left: 10px;
-    padding: 0.25rem 5rem 0.25rem 1rem;
+    padding: 0 5rem 0.25rem 1rem;
     background-color: rgba(255, 255, 255, 0.8);
     bottom: 25px;
+  } */
+
+  #footer {
+    margin: 30px;
   }
+

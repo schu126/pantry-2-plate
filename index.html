@@ -10,13 +10,15 @@
 <body>
     <div id="title_banner">
         <h1>PANTRY 2 PLATE</h1>
-        <p>Let us do the research, so you don`t have to.</p>
+        <p>We'll pull up the recipes for you!</p>
+        <p>Fill up your virtual pantry with ingredients that you have at home, specifically within the protein, vegetable, and carb sections. From your pantry lists, select one element from each that you'd like in your meal. Then proceed to "Find Me A Recipe" and our page will give you a recipe suggestion!</p>
+        <p>Enjoy, and happy cooking!</p>
     </div>
-    <div style="display: flex;">
+    <div id="sectionOne">
         <div class="ingredientSection"> <!-- style="display: flex;" -->
             <form id="protein" action="" method="POST"> <!-- style="display: block;" -->
                 <label for="protein">Protein:</label>
-                <input type="text" class="ingredient-pantry-input" name="protein-pantry-item" placeholder="protein">
+                <input type="text" class="ingredient-pantry-input" name="protein-pantry-item" placeholder="protein item">
                 <input type="submit" class="submit" value="Add to pantry">
                 <div class="ingredientList">
                     <h2>Protein Pantry:</h2>
@@ -24,13 +26,13 @@
                     </ul>
                 </div>
                 <form>
-                    <input id ="protein-pantry-item" class="input" placeholder="Protein" />
+                    <input id ="protein-pantry-item" class="input" placeholder="protein selection" />
                 </form>
         </div>
         <div class="ingredientSection"> <!-- style="display: flex;" -->
             <form id="vegetable" action="" method="POST"> <!-- style="display: block;" -->
                 <label for="vegetable">Vegetable:</label>
-                <input type="text" class="ingredient-pantry-input" name="vegetable-pantry-item" placeholder="vegetable">
+                <input type="text" class="ingredient-pantry-input" name="vegetable-pantry-item" placeholder="vegetable item">
                 <input type="submit" class="submit" value="Add to pantry">
                 <div class="ingredientList">
                     <h2>Vegetable Pantry:</h2>
@@ -38,13 +40,13 @@
                     </ul>
                 </div>
                 <form>
-                    <input id ="vegetable-pantry-item" class="input" placeholder="Vegetable" />
+                    <input id ="vegetable-pantry-item" class="input" placeholder="vegetable selection" />
                 </form>
         </div>
         <div class="ingredientSection"> <!-- style="display: flex;" -->
             <form id="carb" action="" method="POST"> <!-- style="display: block;" -->
                 <label for="carb">Carb:</label>
-                <input type="text" class="ingredient-pantry-input" name="carb-pantry-item" placeholder="carb">
+                <input type="text" class="ingredient-pantry-input" name="carb-pantry-item" placeholder="carb item">
                 <input type="submit" class="submit" value="Add to pantry">
             </form>
             <div class="ingredientList">
@@ -53,7 +55,7 @@
                 </ul>
             </div>
             <form>
-                <input id ="carb-pantry-item" class="input" placeholder="Carb" />
+                <input id ="carb-pantry-item" class="input" placeholder="carb selection" />
             </form>
         </div>
     </div>
@@ -62,9 +64,14 @@
             <button>Find Me A Recipe</button>
         </form>
     </div>
-    <div id="recipe">
-        <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
-        <h2 class="name">Insert Name Here</h2>
+    <div id="sectionThree">
+        <div id="recipeTitle">
+            <img class="detail-image" src="https://clickamericana.com/wp-content/uploads/Vintage-Easy-Bake-Oven-toys.jpg" alt="Insert Name Here" />
+            <h2 class="name">What Should We Cook Today?</h2>
+        </div>
+        <div id="instructions">
+            <!-- <p>test</p> -->
+        </div>
     </div>
     <div id="footer">
         <p>Brought to you by: Sammy and Sydney</p>

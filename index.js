@@ -57,10 +57,10 @@ function clearResults() {
   while(ingredientListDiv.length > 0) {
     ingredientListDiv[0].parentNode.removeChild(ingredientListDiv[0]);
   }
-  cookTimeDiv = document.getElementsByClassName('total-cook-time-elements');
-  while(cookTimeDiv.length > 0) {
-    cookTimeDiv[0].parentNode.removeChild(cookTimeDiv[0]);
-  }
+  // cookTimeDiv = document.getElementsByClassName('total-cook-time-elements');
+  // while(cookTimeDiv.length > 0) {
+  //   cookTimeDiv[0].parentNode.removeChild(cookTimeDiv[0]);
+  // }
   recipeInstructionsDiv = document.getElementsByClassName('recipe-instruction-elements');
   while(recipeInstructionsDiv.length > 0) {
     recipeInstructionsDiv[0].parentNode.removeChild(recipeInstructionsDiv[0]);
@@ -88,7 +88,8 @@ function searchRecipe(protein, vegetable, carb, recipesData) {
   //if the array length is greater than 0, the first found/filtered recipe will be shown.
   if (filteredRecipes.length > 0) {
     const foundRecipe = filteredRecipes[0];
-    let div = document.getElementById("recipe");
+    let div = document.getElementById("recipeTitle");
+    let div2 = document.getElementById("instructions");
     div.querySelector("h2").textContent = foundRecipe.dishName;
     div.querySelector("img").src = foundRecipe.dishImage;
 
@@ -97,24 +98,24 @@ function searchRecipe(protein, vegetable, carb, recipesData) {
     for (let ingredientLine of foundRecipe.ingredientLines) {
       renderList(ingredientLine, ingredientListUl);
     }
-    div.append(ingredientListUl);
+    div2.append(ingredientListUl);
 
-    let totalCookTime = document.createElement("ul");
-    totalCookTime.classList.add('total-cook-time-elements');
-    for (let cookTimeElement of foundRecipe.totalCookTime) {
-      renderList(cookTimeElement, totalCookTime);
-    }
-    div.append(totalCookTime);
+    // let totalCookTime = document.createElement("ul");
+    // totalCookTime.classList.add('total-cook-time-elements');
+    // for (let cookTimeElement of foundRecipe.totalCookTime) {
+    //   renderList(cookTimeElement, totalCookTime);
+    // }
+    // div2.append(totalCookTime);
 
     let recipeInstructions = document.createElement("ol");
     recipeInstructions.classList.add('recipe-instruction-elements');
     for (let recipeInstructionLine of foundRecipe.instructions) {
       renderList(recipeInstructionLine, recipeInstructions);
     }
-    div.append(recipeInstructions);
+    div2.append(recipeInstructions);
   } else {
-    document.getElementById('recipe').querySelector('img').src = "./assets/image-placeholder.jpg"; 
-    document.getElementById("recipe").querySelector("h2").textContent = "Recipe to be uploaded!";
+    document.getElementById("recipeTitle").querySelector("img").src = "./assets/image-placeholder.jpg"; 
+    document.getElementById("recipeTitle").querySelector("h2").textContent = "Recipe to be uploaded!";
 
   }
 }
